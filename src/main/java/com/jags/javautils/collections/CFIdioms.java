@@ -26,7 +26,7 @@ public class CFIdioms
 
       System.out.println();
 
-      Collection<String> c = new ArrayList<>();
+      Collection<String> c = new ArrayList<String>();
       c.add("first");
       c.add(null);
       c.add("second");
@@ -42,12 +42,12 @@ public class CFIdioms
       List<String> names = Arrays.asList("John", "Jane", "Tom", "Jane", "Tom",
                                          "Brian");
       System.out.println(names);
-      System.out.println(new HashSet<>(names));
-      System.out.println(new LinkedHashSet<>(names));
+      System.out.println(new HashSet<String>(names));
+      System.out.println(new LinkedHashSet<String>(names));
 
       System.out.println();
 
-      Map<String, String> capitals = new TreeMap<>();
+      Map<String, String> capitals = new TreeMap<String, String>();
       capitals.put("United States", "Washington");
       capitals.put("Russia", "Moscow");
       capitals.put("England", "London");
